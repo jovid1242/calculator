@@ -11,3 +11,9 @@ body {
     border-radius: 5px !important;
     box-shadow: 5px 10px 10px #000000b3;
 }
+
+@media (max-width: 900px) {
+    .wrapper {
+        height: 650px;
+    }
+}
