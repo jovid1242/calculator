@@ -1,0 +1,20 @@
+.notification {
+    position: absolute;
+    display: block;
+    width: 300px;
+    height: 70px;
+    background: rgb(43 121 71);
+    z-index: 999;
+}
+
+.hide {
+    display: none;
+}
+
+.notification p {
+    margin: 10px;
+    color: #d1dddd;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: "Fira Sans", "Arial";
+}

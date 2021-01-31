@@ -1,0 +1,20 @@
+.operations {
+    margin: 1rem;
+}
+
+.operations button:hover {
+    background: #71482c;
+}
+
+.operations button {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    color: #fff;
+    transition: 1.5s;
+    background: #1f1f1f;
+}

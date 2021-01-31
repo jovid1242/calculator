@@ -1,0 +1,32 @@
+.calculator-btn {
+    margin: 1rem;
+}
+
+.calculator-btn button {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    color: #fff;
+    background: #1f1f1f;
+    transition: 1.5s;
+}
+
+.calculator-btn button:hover {
+    background: #45712c;
+}
+
+.modifiers button:hover {
+    background: #71482c;
+}
+
+.modifiers button {
+    width: 4rem;
+    height: 3rem;
+    background: #1f1f1f;
+    color: #45712c;
+    transition: 1.5s;
+}
