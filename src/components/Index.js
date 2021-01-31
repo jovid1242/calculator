@@ -54,11 +54,11 @@ export default function Index() {
                 <Notification message={message} active={notificationActive} />
                 <Result result={input} />
                 <div className="row">
-                    <div className="col-md-8">
+                    <div className="col-md-8 col-8">
                         <Buttons addValue={addValue} />
                         <ClearButton clearInput={clearInput} clearAllInput={clearAllInput} />
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-md-4 col-4">
                         <Operation addOperation={addOperation} />
                         <ResultButton calculate={calculate} />
                     </div>
