@@ -37,7 +37,7 @@ export default function Index() {
             }, 3000)
             return
         }
-        result = eval(result)
+        result = String(eval(result))
 
         setInput(result)
     }
